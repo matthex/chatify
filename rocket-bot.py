@@ -7,6 +7,8 @@ from os import environ
 import weather
 import joke
 
+name='rocketbot'
+
 def init():
     global weburl       #url of chat server
     global socketurl    #socket url of chat server

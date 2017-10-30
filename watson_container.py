@@ -4,6 +4,8 @@ from os import environ
 
 class watson_conversation:
 
+    name='bluemix'
+
     def __init__(self):
         #get config from heroku config vars
         config = json.loads(environ[name])

@@ -2,6 +2,8 @@ import requests
 import json
 from os import environ
 
+name='weather'
+
 def get_weather():
     #get config from heroku config vars
     config = json.loads(environ[name])

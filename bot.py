@@ -1,9 +1,9 @@
 from flask import Flask
-import rocket-bot
+import rocket_bot
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    rocket-bot.init()
+    rocket_bot.init()
     return "Bot started."

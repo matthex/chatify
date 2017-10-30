@@ -1,0 +1,7 @@
+requests==2.18.4
+watson_developer_cloud==0.26.1
+setuptools==28.8.0
+aiohttp==2.3.1
+prompt_toolkit==1.0.15
+rocketchat_API==0.6.3
+typing==3.6.2

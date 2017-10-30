@@ -3,6 +3,7 @@ from rocketchat_API.rocketchat import RocketChat
 import time
 import json
 from watson_container import watson_conversation
+from os import environ
 import weather
 import joke
 

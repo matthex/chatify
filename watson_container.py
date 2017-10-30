@@ -2,9 +2,9 @@ import json
 from watson_developer_cloud import ConversationV1
 from os import environ
 
-class watson_conversation:
+name='bluemix'
 
-    name='bluemix'
+class watson_conversation:
 
     def __init__(self):
         #get config from heroku config vars
